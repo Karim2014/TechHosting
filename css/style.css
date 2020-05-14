@@ -18,6 +18,16 @@
 .logo {
   background-color: rgb(37, 86, 186);
 }
+
+.tab-host {
+  background-image: url("../img/menu.png");
+  background-repeat: repeat-x;
+}
+
+.tab-item {
+  background-image: url("../img/tab.png");
+  background-repeat: repeat-x;
+}
 /* * {
   font-family: Arial, Helvetica, sans-serif;
 }
