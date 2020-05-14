@@ -54,6 +54,11 @@
   font-size: 90%;
   border-bottom: rgb(37, 86, 186) dotted 1px;
 }
+
+.footer {
+  background-color: rgb(37, 86, 186);
+  color: white;
+}
 /* * {
   font-family: Arial, Helvetica, sans-serif;
 }
