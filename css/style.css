@@ -28,6 +28,30 @@
   background-image: url("../img/tab.png");
   background-repeat: repeat-x;
 }
+
+.block {
+  margin-top: 12px;
+}
+
+.block-head {
+  background-color: rgb(37, 86, 186);
+  color: white;
+  padding: 12px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.block-content {
+  background-color: white;
+  padding: 12px 8px;
+}
+
+.block-link {
+  color: rgb(37, 86, 186);
+  text-decoration: none;
+  font-size: 90%;
+  border-bottom: rgb(37, 86, 186) dotted 1px;
+}
 /* * {
   font-family: Arial, Helvetica, sans-serif;
 }
