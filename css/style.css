@@ -44,6 +44,8 @@
 .block-content {
   background-color: white;
   padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .block-link {
