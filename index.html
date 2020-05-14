@@ -13,19 +13,19 @@
 <body>
   <div class="container">
     <header>
-      <div class="row px-1 py-2 header">
-        <nav class="col-8 align-self-center">
-          <a class="menu-item main-item py-2 px-2">Главная</a>
+      <div class="row align-items-center px-1 py-2 header">
+        <nav class="col-7">
+          <a class="menu-item rounded-pill main-item py-2 px-2">Главная</a>
           <a class="menu-item">Пример страницы</a>
         </nav>
-        <div class="col align-self-center share">
-          <a href="" class="share-link"><img src="img/rss.png" alt="rss"></a>
-          <a href="" class="share-link"><img src="img/facebook.png" alt="facebook"></a>
-          <a href="" class="share-link"><img src="img/twitter.png" alt="twitter"></a>
+        <div class="col share">
+          <a href="#" class="float-right ml-2 share-link"><img src="img/rss.png" alt="rss"></a>
+          <a href="#" class="float-right ml-2 share-link"><img src="img/facebook.png" alt="facebook"></a>
+          <a href="#" class="float-right ml-2 share-link"><img src="img/twitter.png" alt="twitter"></a>
         </div>
-        <input class="col align-self-center search" placeholder="Поиск"></input>
+        <input class="col-3 search" placeholder="Поиск"></input>
       </div>
-      <div class="logo">
+      <div class="row px-4 py-4 logo">
         <img src="img/logo.png" alt="">
       </div>
     </header>
@@ -36,7 +36,7 @@
         </div>
         <div class="row tab">
           <div class="col-sm left-side">
-            <div class="block search">Поиск</div>
+            <input class="block search">Поиск</input>
             <div class="block">
               <div class="block-head">Свежие записи</div>
               <div class="block-content">

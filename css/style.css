@@ -5,7 +5,6 @@
 
 .main-item {
   background-color: rgb(37, 86, 186);
-  border-radius: 15px;
 }
 
 .search {
@@ -14,6 +13,10 @@
   background-image: url("../img/search.gif");
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.logo {
+  background-color: rgb(37, 86, 186);
 }
 /* * {
   font-family: Arial, Helvetica, sans-serif;
