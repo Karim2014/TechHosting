@@ -1,0 +1,156 @@
+/* * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("../img/wrapper.png");
+  background-repeat: repeat-x;
+  background-size: 100%;
+} */
+
+/* .container {
+  max-width: 1140px;
+  width: 90%;
+  margin: auto;
+} */
+
+/* .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.main-item {
+  background-color: rgb(37, 86, 186);
+  color: white;
+  padding: 3px;
+  border-radius: 15px;
+}
+
+.share {
+  margin-left: auto;
+  margin-right: 68px;
+}
+
+.logo {
+  height: auto;
+  padding: 42px 36px;
+  background-color: rgb(37, 86, 186);
+}
+
+.main-content {
+  background-color: lightgray;
+  min-height: 100%;
+  padding-bottom: 10px;
+}
+
+.tab-host {
+  background-image: url("../img/menu.png");
+}
+
+.tab-item {
+  background-image: url("../img/tab.png");
+  background-repeat: repeat-x;
+  height: 16px;
+  padding: 12px;
+  display: inline-block;
+  font-size: 90%;
+  text-align: center;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left-side {
+  float: left;
+  width: 215px;
+  margin-left: 10px;
+}
+
+.right-side {
+  float: right;
+  width: 215px;
+  margin-right: 10px;
+}
+
+.block {
+  margin-top: 12px;
+}
+
+.block-head {
+  background-color: rgb(37, 86, 186);
+  color: white;
+  padding: 12px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.block-content {
+  background-color: white;
+  padding: 12px 8px;
+}
+
+.block-link {
+  color: rgb(37, 86, 186);
+  text-decoration: none;
+  font-size: 90%;
+  border-bottom: rgb(37, 86, 186) dotted 1px;
+}
+
+.main {
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.main-block {
+  background-color: ivory;
+  width: 100%;
+  height: 100px;
+  margin: 1px;
+}
+
+.footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 86, 186);
+  color: white;
+  padding-top: auto;
+}
+.footer p {
+  text-align: center;
+}
+
+/*  @media(max-width: 1188px) {
+
+  .right-side {
+    margin-left: 10px;
+    display: block;
+    background-color: papayawhip;
+  }
+}  */
+
+/* @media (max-width: 938px) {
+  .tab {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main {
+    order: -1;
+    width: 90%;
+  }
+  .right-side {
+    margin-right: 0;
+    width: 90%;
+  }
+  .left-side {
+    margin-left: 0;
+    width: 90%;
+  }
+} */ 
