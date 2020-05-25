@@ -1,0 +1,155 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechHosting</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark header">
+
+          <!-- Бренд или название сайта (отображается в левой части меню) -->
+          <a class="navbar-brand menu-item rounded-pill main-item py-2 px-2">Главная</a>
+          <!-- Кнопка «Гамбургер» отображается только в мобильном виде (предназначена для открытия основного содержимого Navbar) -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <!-- Основная часть меню (может содержать ссылки, формы и другие элементы) -->
+        <div class="collapse navbar-collapse" id="navbar-main">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link menu-item">Пример страницы</a>
+            </li>
+            <li class="nav-item">
+              <div class="share">
+                <a href="#" class="ml-2 share-link"><img src="img/rss.png" alt="rss"></a>
+                <a href="#" class="ml-2 share-link"><img src="img/facebook.png" alt="facebook"></a>
+                <a href="#" class="ml-2 share-link"><img src="img/twitter.png" alt="twitter"></a>
+              </div>
+            </li>
+          </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2 search" type="search" placeholder="Поиск" aria-label="Поиск">
+            </form>
+            </div> 
+    </nav>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row px-4 py-4 logo">
+      <img src="img/logo.png" alt="" class="img-fluid">
+    </div>
+    <main>
+      <div class="row tab-host">
+        <div class="px-3 py-2 tab-item">ГЛАВНАЯ</div>
+      </div>
+      <div class="row justify-content-center-md bg-light py-2 tab">
+        <div class="col-8 col-sm-6 col-md-3 col-lg-2 order-2 order-md-1 left-side">
+          <div class="px-1 py-1 bg-white block">
+            <input class="block w-100 search" placeholder="Поиск"></input>
+          </div>
+          <div class="block">
+            <div class="block-head">Свежие записи</div>
+            <div class="block-content">
+              <a href="#" class="block-link">Привет мир!</a>
+            </div>
+          </div>
+          <div class="block">
+            <div class="block-head">Свежие коментарии</div>
+            <div class="block-content">
+              <a href="#" class="block-link">Мистер WordPress к записи Привет, Мир</a>
+            </div>
+          </div>
+          <div class="block">
+            <div class="block-head">Архивы</div>
+            <div class="block-content">
+              <a href="" class="block-link">Февраль 2013</a>
+            </div>
+          </div>
+          <div class="block">
+            <div class="block-head">Рубрики</div>
+            <div class="block-content">
+              <a href="#" class="block-link">Без рубрики</a>
+            </div>
+          </div>
+          <div class="block">
+            <div class="block-head">Мета</div>
+            <div class="block-content">
+              <a href="#" class="block-link">Управление сайтом</a>
+              <a href="#" class="block-link">Выйти</a>
+              <a href="#" class="block-link">RSS записей</a>
+              <a href="#" class="block-link">RSS комментариев</a>
+              <a href="#" class="block-link">WordPress.org</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-9 col-lg-8  py-2 bg-white h-100 w-100 order-1 order-md-2 main">
+          <div class="row justify-content-center  record">
+            <div class="col-auto">
+              <img src="/img/slides/1.jpg" alt="" class="img-fluid w-100">
+              <h1 class="mt-2">Привет, мир!</h1>
+              <div class="list-inline mb-3">
+                <div class="list-inline-item">
+                  <img src="img/date.png" alt="">
+                  <span>Февраль 24th, 2013</span>
+                </div>
+                <div class="list-inline-item">
+                  <img src="/img/user.png" alt="">
+                  <span>admin</span>
+                </div>
+                <div class="list-inline-item">
+                  <img src="img/comments.png" alt="">
+                  <span>1 коментарий</span>
+                </div>
+                <div class="list-inline-item">
+                  <img src="img/edit.png" alt="">
+                  <span>Редактировать</span>
+                </div>
+              </div>
+              <p>Добро пожаловать в WordPress. Это ваша первая запись. Отредактируйте или удалите ее, затем пишите!</p>
+              <hr class="mt-4">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-2 col-8 order-3 order-md-3 right-side">
+          <div class="block">
+            <div class="block-head">Теги</div>
+            <div class="block-content"></div>
+          </div>
+          <div class="block">
+            <div class="block-head">Архивы</div>
+            <div class="block-content">
+              <a href="" class="block-link">Февраль 2013</a>
+            </div>
+          </div>
+          <div class="block">
+            <div class="block-head">Календарь</div>
+            <div class="block-content">
+              <a href="" class="block-link">Lorem ipsum</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="row px-3 py-3 text-center footer">
+      <div class="col">Все права защищены. Еще один сайт на WordPress</div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
