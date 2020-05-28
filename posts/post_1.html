@@ -4,44 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TechHosting</title>
-  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./../css/style.css">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark header">
+  
 
-          <!-- Бренд или название сайта (отображается в левой части меню) -->
-          <a class="navbar-brand menu-item rounded-pill main-item py-2 px-2">Главная</a>
-          <!-- Кнопка «Гамбургер» отображается только в мобильном виде (предназначена для открытия основного содержимого Navbar) -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <!-- Основная часть меню (может содержать ссылки, формы и другие элементы) -->
-        <div class="collapse navbar-collapse" id="navbar-main">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link menu-item">Пример страницы</a>
-            </li>
-            <li class="nav-item">
-              <div class="share">
-                <a href="#" class="ml-2 share-link"><img src="img/rss.png" alt="rss"></a>
-                <a href="#" class="ml-2 share-link"><img src="img/facebook.png" alt="facebook"></a>
-                <a href="#" class="ml-2 share-link"><img src="img/twitter.png" alt="twitter"></a>
-              </div>
-            </li>
-          </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2 search" type="search" placeholder="Поиск" aria-label="Поиск">
-            </form>
-            </div> 
-    </nav>
-  </header>
-
-  <div class="container-fluid">
+  <div class="container-xl">
+    <div class="row">
+      <header class="col header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+    
+              <!-- Бренд или название сайта (отображается в левой части меню) -->
+              <a class="navbar-brand menu-item rounded-pill main-item py-2 px-2">Главная</a>
+              <!-- Кнопка «Гамбургер» отображается только в мобильном виде (предназначена для открытия основного содержимого Navbar) -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <!-- Основная часть меню (может содержать ссылки, формы и другие элементы) -->
+            <div class="collapse navbar-collapse" id="navbar-main">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link menu-item">Пример страницы</a>
+                </li>
+                <li class="nav-item">
+                  <div class="share">
+                    <a href="#" class="ml-2 share-link"><img src="./../img/rss.png" alt="rss"></a>
+                    <a href="#" class="ml-2 share-link"><img src="./../img/facebook.png" alt="facebook"></a>
+                    <a href="#" class="ml-2 share-link"><img src="./../img/twitter.png" alt="twitter"></a>
+                  </div>
+                </li>
+              </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2 search" type="search" placeholder="Поиск" aria-label="Поиск">
+                </form>
+                </div> 
+        </nav>
+      </header>
+    </div>
     <div class="row px-4 py-4 logo">
       <img src="img/logo.png" alt="" class="img-fluid">
     </div>
@@ -50,7 +52,7 @@
         <div class="px-3 py-2 tab-item">ГЛАВНАЯ</div>
       </div>
       <div class="row justify-content-center-md bg-light py-2 tab">
-        <div class="col-8 col-sm-6 col-md-3 col-lg-2 order-2 order-md-1 left-side">
+        <div class="col-12 col-sm-6 col-md-3 col-lg-2 order-2 order-md-1 left-side">
           <div class="px-1 py-1 bg-white block">
             <input class="block w-100 search" placeholder="Поиск"></input>
           </div>
@@ -90,34 +92,294 @@
           </div>
         </div>
         <div class="col-12 col-md-9 col-lg-8  py-2 bg-white h-100 w-100 order-1 order-md-2 main">
-          <div class="row justify-content-center  record">
-            <div class="col-auto">
-              <img src="/img/slides/1.jpg" alt="" class="img-fluid w-100">
-              <h1 class="mt-2">Привет, мир!</h1>
-              <div class="list-inline mb-3">
-                <div class="list-inline-item">
-                  <img src="img/date.png" alt="">
-                  <span>Февраль 24th, 2013</span>
-                </div>
-                <div class="list-inline-item">
-                  <img src="/img/user.png" alt="">
-                  <span>admin</span>
-                </div>
-                <div class="list-inline-item">
-                  <img src="img/comments.png" alt="">
-                  <span>1 коментарий</span>
-                </div>
-                <div class="list-inline-item">
-                  <img src="img/edit.png" alt="">
-                  <span>Редактировать</span>
-                </div>
+          <article class="post post_full" id="post_333756" lang="ru">
+            <div class="post__wrapper">
+              <header class="post__meta">
+                  <a href="https://habr.com/ru/users/alek_sys/" class="post__user-info user-info" title="Автор публикации">
+                      <span class="default-image_mini default-image_blue">
+                        <svg class="icon-svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" version="1.1" role="img"><path d="M21.5 24h-19c-1.379 0-2.5-1.122-2.5-2.5v-19c0-1.379 1.122-2.5 2.5-2.5h19c1.379 0 2.5 1.122 2.5 2.5v19c0 1.379-1.122 2.5-2.5 2.5zm-19-23c-.827 0-1.5.673-1.5 1.5v19c0 .827.673 1.5 1.5 1.5h19c.827 0 1.5-.673 1.5-1.5v-19c0-.827-.673-1.5-1.5-1.5h-19zM15.598 12.385zM19.438 15.417l-.002-.005v-.001c-.875-2.226-2.484-3.054-3.445-3.549l-.273-.143c.029-.497-.025-1.034-.167-1.599l-.128.032.123-.044c-.765-2.152-1.757-2.585-2.632-2.967l-.006-.003-.535-2.121c.357-.065.628-.375.628-.752.001-.423-.342-.765-.765-.765s-.766.342-.766.765c0 .358.248.657.581.74l-.825 1.654-.014-.003-.024-.003c-1.053-.033-1.842.369-2.5.947-.633-.322-1.515-.729-2.158-1.814.107-.12.174-.276.174-.45 0-.375-.303-.678-.678-.678s-.678.303-.678.678.303.678.678.678l.221-.04c.416.597 1.09 1.181 1.347 2.828l-.072.091.104.081-.112-.067c-1.157 1.914-.793 4.248.207 5.37-.998 2.546-1.035 4.681-.097 5.868l.002.002.003.003c.119.162.313.233.524.233.189 0 .39-.057.559-.154.312-.179.441-.459.326-.713l-.12.054.119-.056c-.581-1.243-.474-2.713.314-4.37.4.131.778.208 1.145.234l.139.73c.264 1.418.514 2.757 1.297 4.006.132.264.453.387.777.387.122 0 .245-.018.357-.051.385-.116.591-.399.537-.738l-.129.021.125-.042c-.204-.606-.431-1.146-.649-1.67-.373-.894-.725-1.742-.891-2.737.407-.042.797-.129 1.161-.261.825.692 1.661 1.492 2.743 3.406h.001c.072.14.224.215.41.215.105 0 .222-.024.339-.073.365-.155.652-.531.477-1.006v-.001c-.432-1.849-1.426-2.778-2.428-3.547.162-.175.311-.366.442-.576.75.399 1.878 1.005 3.127 2.766l.047.067.011-.008c.151.156.317.24.48.24.096 0 .191-.027.279-.084.306-.194.439-.662.29-1.005zm-8.878-2.493c-.947 0-1.713-.767-1.713-1.713s.767-1.713 1.713-1.713c.947 0 1.713.767 1.713 1.713s-.767 1.713-1.713 1.713zm6.587 4.648l-.084.021v-.001l.084-.02zm-2.007-5.312zm.022 1.006zM11.225 11.604c0 .385-.312.697-.697.697s-.697-.312-.697-.697c0-.385.312-.697.697-.697s.697.312.697.697z"></path></svg>
+                      </span>
+                    <span class="user-info__nickname user-info__nickname_small">alek_sys</span>
+                  </a>
+          
+                <span class="post__time" data-time_published="2017-07-19T22:28Z">20 июля 2017 в 01:28</span>
+          
+                
+              </header>
+          
+              <h1 class="post__title post__title_full">
+                <span class="post__title-text">Как писать на Spring в 2017</span>
+              </h1>
+          
+          
+                <ul class="post__hubs post__hubs_full-post inline-list">
+                    <li class="inline-list__item inline-list__item_hub">
+                      <a href="https://habr.com/ru/hub/java/" class="inline-list__item-link hub-link " title="Вы не подписаны на этот хаб" onclick="if (typeof ga === 'function') { ga('send', 'event', 'hub', 'post page', 'Java'); }">Java</a>
+                    </li>
+                </ul>
+          
+              <ul class="post__marks inline-list"><li class="inline-list__item inline-list__item_post-type"><span class="post__type-label" title="Обучающий материал">Tutorial</span></li></ul>
+          
+              <div class="post__body post__body_full">
+                <div class="post__text post__text-html post__text_v1" id="post-content-body" data-io-article-url="https://habr.com/ru/post/333756/"><p>В одной из классических статей для новичков, мелькавших недавно на Хабре, рассказывалось про создание базового Web приложения на Java. Все начиналось с сервлета, потом создания JSP страницы и, наконец, деплоймента в контейнер. Посмотрев на это свежим взглядом я понял, что для как раз для новичков это, наверняка, выглядит совершенно жутко — на фоне простых и понятных PHP или Node.js, где все просто — написал контроллер, вернул объект, он стал JSON или HTML. Чтобы немного развеять это ощущение, я решил написать "Гайд для новичков в Spring". Цель это статьи — показать, что создание Web приложений на Java, более того — на <em>Spring Framework</em> это не боль и мучительное продирание через web.xml, persistence.xml, beans.xml, и собирание приложения как карточного домика по кусочкам, а вполне себе быстрый и комфортный процесс. Аудитория — начинающие разработчики, разработчики на других языках, ну и те, кто видел Спринг в его не самые лучше времена.</p><a name="habracut"></a><br>
+          <h1 id="vvedenie">Введение</h1><br>
+          <p>В этой статье мы посмотрим, что включает в себя современный Спринг, как настроить локальное окружение для разработки Веб приложений, и создадим простое веб-приложение, которое берет данные из БД и отдает HTML страницу и JSON. Как ни странно, большинство статей (на русском языке) для начинающих, которые я нашел в топе поиска описывают и ручное создание контекста, и запуск приложения, и конфигурацию через XML — ничего из этого в современном Спринге делать, разумеется, не обязательно.</p><br>
+          <h1 id="chto-takoe-spring">Что такое Spring?</h1><br>
+          <p>Для начала пара слов, что же такое Spring. В настоящее время, под термином "Spring" часто подразумевают целое семейство проектов. В большинстве своем, они развиваются и курируются компанией Pivotal и силами сообщества. Ключевые (но не все) проекты семейства Spring это:</p><br>
+          <ul>
+          <li><p><strong>Spring Framework</strong> (или Spring Core)<br>
+          Ядро платформы, предоставляет базовые средства для создания приложений — управление компонентами (бинами, <strong>beans</strong>), внедрение зависимостей, MVC фреймворк, транзакции, базовый доступ к БД. В основном это низкоуровневые компоненты и абстракции. По сути, неявно используется всеми другими компонентами.</p><br>
+          </li>
+          <li><p><strong>Spring MVC</strong> (часть Spring Framework)<br>
+          Стоит упомянуть отдельно, т.к. мы будем вести речь в основном о веб-приложениях. Оперирует понятиями контроллеров, маппингов запросов, различными HTTP абстракциями и т.п. Со Spring MVC интегрированы нормальные шаблонные движки, типа Thymeleaf, Freemaker, Mustache, плюс есть сторонние интеграции с кучей других. Так что никакого ужаса типа JSP или JSF писать не нужно. </p><br>
+          </li>
+          <li><p><strong>Spring Data</strong><br>
+          Доступ к данным: реляционные и нереляционные БД, KV хранилища и т.п.</p><br>
+          </li>
+          <li><p><strong>Spring Cloud</strong><br>
+          Много полезного для микросервисной архитектуры — service discovery, трасировка и диагностика, балансировщики запросов, circuit breaker-ы, роутеры и т.п.</p><br>
+          </li>
+          <li><p><strong>Spring Security</strong><br>
+          Авторизация и аутентификация, доступ к данным, методам и т.п. OAuth, LDAP, и куча разных провайдеров.</p><br>
+          </li>
+          <li><strong>Spring Integration</strong><br>
+          Обработка данных из разных источников. Если надо раз в час брать файл с ФТП, разбивать его на строки, которые потом фильтровать, а дальше отправлять в какую-то очередь — это к Spring Integration.</li>
+          </ul><br>
+          <p>Типичное веб приложение скорее всего будет включать набор вроде Spring MVC, Data, Security. Ниже мы увидим, как это все работает вместе.</p><br>
+          <p>Особняком стоит отметить <strong>Spring Boot</strong> — это вишенка на торте (а некоторые <a href="https://image.slidesharecdn.com/qdtv5ey1qn2pzulfxfat-signature-0f65932498c4fd6ca0dcfb14db8e328e12718ad0dbf9ecc6960c390477574705-poli-160917122451/95/java-day-kharkiv-integration-testing-from-the-trenches-rebooted-64-638.jpg?cb=1474115226">думают</a>, что собственно сам торт), которые позволяет избежать всего ужаса XML конфигурации. Boot позволяет быстро создать и сконфигурить (т.е. настроить зависимости между компонентами) приложение, упаковать его в исполняемый самодостаточный артефакт. Это то связующее звено, которое объединяет вместе набор компонентов в готовое приложение. Пару вещей, которые нужно знать про Spring Boot:</p><br>
+          <ul>
+          <li>Он не использует кодогенерацию. Из кода, который генерится, присутствует только метод main. Если вы ищете утилиту для генерации приложений — это скорее JHipster</li>
+          <li>Не использует XML для конфигурации. Все конфигурится через аннотации</li>
+          <li>Используются автоконфигурации по максимуму. Если у вас добавлена зависимость на Mongo, и не указано, куда подключаться — Boot попробует <code>localhost:27017</code></li>
+          <li>Используется <em>convention over configuration</em>. Для большинства конфигураций не нужно ничего настраивать</li>
+          <li>Его легко отодвинуть в сторону и "перекрыть" конфигурацию по умолчанию. Например, если в настройках указать хост для подключения к Монго — он автоматически перекроет <code>localhost</code></li>
+          </ul><br>
+          <h1 id="nastroyka-okruzheniya">Настройка окружения</h1><br>
+          <p>Для того, чтобы создать простое приложение, знать, как создать проект Maven с нуля, как настроить плагины, чтобы создать JAR, какие бывают лейауты в JAR, как настроить Surefire для запуска тестов, как установить и запустить локально Tomcat, а уж тем более, как работает DispatcherServlet — совершенно не нужно. </p><br>
+          <p>Современное приложение на Spring создается в два шага:</p><br>
+          <ol>
+          <li>Идем на <a href="https://start.spring.io">Spring Initializr</a>.</li>
+          <li>… и все, второго шага нет</li>
+          </ol><br>
+          <p>Spring Initializr позволяет "набрать" в свое приложение нужных компонентов, которые потом Spring Boot (он автоматически включен во все проекты, созданные на Initializr) соберет воедино.</p><br>
+          <p>В качестве среды разработки подойдет что угодно, например бесплатная IntelliJ IDEA CE прекрасно справляется — просто импортируйте созданный pom.xml (Maven) или build.gradle (Gradle) файл в IDE.</p><br>
+          <p>Стоит отдельно отметить компонент Spring Boot который называется <em>DevTools</em>. Он решает проблему цикла локальной разработки, который раньше выглядел как:</p><br>
+          <ol>
+          <li>Собрать WAR локально</li>
+          <li>Задеплоить его в Очень Крутой Энтерпрайз Аппликейшен Сервер на тестовом сервере, потому что настройка ОКЭАС локально требует недюжинной сноровки</li>
+          <li>Выпить чашку кофе, т.е. ОКЭАС перезапустить приложение в лучшем случае через несколько минут</li>
+          <li>Скопировать стектрейс ошибки</li>
+          <li>Перейти на п. 1</li>
+          </ol><br>
+          <blockquote>В те древние времена даже родилась поговорка, что Spring это DSL для конвертации XML конфигов в стектрейсы.</blockquote><p>С включенными <strong>Spring Boot DevTools</strong> цикл разработки сокращается до:</p><br>
+          <ol>
+          <li>Запустить приложение через зеленый треугольничек в IDEA</li>
+          </ol><br>
+          <p><em>DevTools</em> будут автоматом проверять изменения в скомпилированном коде или шаблонах, и очень быстро перезапускать (hot reload) только "боевую" часть приложения (как nodemon, если вы знакомы с миром node.js). Более того, DevTools включают интеграцию с <em>Live Reload</em> и после установки расширения в браузере, достаточно скомпилировать проект в IDEA, чтобы он автоматом обновился в браузере.</p><br>
+          <h1 id="razrabotka">Разработка</h1><br>
+          <p>Окей, пора приступать к практической части. Итак, наша цель — создать веб-приложение, которое отдает welcome страницу, обращается с нее же к собственному API, получает JSON с данными из базы и выводит их в таблицу.</p><br>
+          <h2 id="novyy-proekt">Новый проект</h2><br>
+          <p>Для начала, идем на <a href="https://start.spring.io">start.spring.io</a> и создаем проект с зависимостями <em>Web</em>, <em>DevTools</em>, <em>JPA</em> (доступ к реляционным базам), <em>H2</em> (простая in-memory база), <em>Mustache</em> (движок шаблонов). Сгенерированный <code>pom.xml</code> импортируем в IDEA. Все, приложение готово к запуску! Можно его запустить из командной строки командой <code>./mvnw spring-boot:run</code> или прямо из IDEA — запустив метод main. Да, серверов приложений, контейнеров и деплоймента не нужно.</p><br>
+          <blockquote>Точнее, контейнер нужен — только он предоставлен и настроен Spring Boot-ом — используя Embedded Tomcat</blockquote><br>
+          <h2 id="kontroller">Контроллер</h2><br>
+          <p>Итак, наш следующий шаг — создать контроллер и вернуть "домашнюю" страницу. Код контроллера выглядит так просто, как и ожидается:</p><br>
+          <pre><code class="java hljs"><span class="hljs-meta">@Controller</span>
+          <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">IndexController</span> </span>{
+              <span class="hljs-meta">@GetMapping("/")</span>
+              <span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">index</span><span class="hljs-params">()</span> </span>{
+                  Map&lt;String, String&gt; model = <span class="hljs-keyword">new</span> HashMap&lt;&gt;();
+                  model.put(<span class="hljs-string">"name"</span>, <span class="hljs-string">"Alexey"</span>);
+                  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ModelAndView(<span class="hljs-string">"index"</span>, model);
+              }
+          }</code></pre><br>
+          <p>Пара вещей, на которые стоит обратить внимание.</p><br>
+          <ol>
+          <li>Метод возвращает <code>ModelAndView</code> — дальше Spring знает, что нужно взять вью <code>index.html</code> из папки <code>resources/templates</code> (это соглашение по умолчанию) и передать туда модель</li>
+          <li>Модель в нашем случае просто словарь, но это может быть и строго-типизированная модель (объект) тоже</li>
+          </ol><br>
+          <blockquote>С Котлин это бы выглядело еще лучше и проще, но это потребует введения сразу большого количества новых понятий — язык, фреймворк. Лучше начинать с малого.</blockquote><p>Класс, помеченный как <code>@Controller</code> автоматически регистрируется в MVC роутере, а используя аннотации <code>@(Get|Post|Put|Patch)Mapping</code> можно регистрировать разные пути. </p><br>
+          <blockquote>Все файлы из каталога <code>resources/static/</code> считаются статическими, там можно хранить CSS и картинки. </blockquote><br>
+          <h2 id="shablon">Шаблон</h2><br>
+          <p>Мы используем <em>Mustache (Handlebar)</em> синтаксис, поэтому шаблон очень напоминает обычный HTML</p><br>
+          <pre><code class="html hljs xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+          
+          <span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+          
+          <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Welcome to Spring, {{ name }}<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+          
+          <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre><br>
+          <p>После компиляции проекта (⌘/Ctrl + F9) — можно сразу идти на <code>http://localhost:8080</code> и увидеть созданную страницу. </p><br>
+          <h2 id="dostup-k-baze">Доступ к базе</h2><br>
+          <p>Для начала, опишем нашу предметную область. Мы будем собирать статистику посещений — каждый раз, когда кто-то заходит на главную страницу, мы будем писать это в базу. Модель выглядит до крайности примитивно:</p><br>
+          <pre><code class="java hljs"><span class="hljs-meta">@Entity</span>
+          <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Visit</span> </span>{
+          
+              <span class="hljs-meta">@Id</span>
+              <span class="hljs-meta">@GeneratedValue</span>
+              <span class="hljs-keyword">public</span> Long id;
+          
+              <span class="hljs-keyword">public</span> String description;
+          }</code></pre><br>
+          <blockquote>Предвидя череду комментариев "Как же без геттеров и сеттеров" и "Где же equals / hashCode" — эти элементы упущены сознательно с целью упрощения кода. Совершенно чудовищная ошибка дизайна Java которая заставляет писать эту ерунду (геттеры и методы сравнения), это, конечно, отдельный разговор. Котлин эту проблему, кстати, решает.</blockquote><p>Мы снова очень активно используем аннотации — в этот раз из <strong>Spring Data</strong> (точнее, JPA — это дремучая спецификация для доступа к данным). Этот класс описывает модель с двумя полями, одно из которых генерится автоматически. По этому классу будет автоматически создана модель данных (таблицы) в БД. </p><br>
+          <p>Теперь для этой модели пора создать репозиторий. Это еще проще, чем контроллер.</p><br>
+          <pre><code class="java hljs"><span class="hljs-meta">@Repository</span>
+          <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">VisitsRepository</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">CrudRepository</span>&lt;<span class="hljs-title">Visit</span>, <span class="hljs-title">Long</span>&gt; </span>{
+          }</code></pre><br>
+          <p>Все, репозиторий можно использовать для работы с базой — читать и писать записи. У внимательного читателя должен сработать WTF детектор — что здесь вообще происходит? Мы определяем <strong>интерфейс</strong> и внезапно он начинает работать с базой? Все так. Благодаря магии <em>Spring Boot</em> и <em>Spring Data</em> "под капотом" происходит следующее:</p><br>
+          <ul>
+          <li>Увидев в зависимостях <em>H2</em> (встраиваемая БД), Boot автоматически конфигурит <code>DataSource</code> (это ключевой компонент для подключения к базе) чтобы приложение работало с этой базой</li>
+          <li><em>Spring Data</em> ищет всех наследников <code>CrudRepository</code> и автоматически генерит для них дефолтные реализации, которые включают базовые методы репозитория, типа <code>findOne</code>, <code>findAll</code>, <code>save</code> etc. </li>
+          <li>Spring автоматически конфигурит слой для доступа к данным — <em>JPA</em> (точнее, его реализацию <em>Hibernate</em>)</li>
+          <li>Благодаря аннотации <code>@Repository</code> этот компонент становится доступным в нашем приложении (и мы его используем через пару минут)</li>
+          </ul><br>
+          <p>Чтобы использовать репозиторий в контроллере мы воспользуемся механизмом <strong>внедрения зависимостей</strong>, предоставляемый Spring Framework. Чтобы это сделать, как ни странно, нужно всего лишь объявить зависимость в нашем контроллере.</p><br>
+          <pre><code class="java hljs"><span class="hljs-meta">@Controller</span>
+          <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">IndexController</span> </span>{
+          
+              <span class="hljs-keyword">final</span> VisitsRepository visitsRepository;
+          
+              <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">IndexController</span><span class="hljs-params">(VisitsRepository visitsRepository)</span> </span>{
+                  <span class="hljs-keyword">this</span>.visitsRepository = visitsRepository;
+              }
+          ...
+          }</code></pre><br>
+          <p>Увидев в нашем конструкторе параметр типа <code>VisitRepository</code>, Spring найдет созданный <em>Spring Data</em>-ой репозиторий и передаст его в конструктор. </p><br>
+          <p>Теперь можно писать в базу в методе контроллера.</p><br>
+          <pre><code class="java hljs"><span class="hljs-meta">@GetMapping("/")</span>
+              <span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">index</span><span class="hljs-params">()</span> </span>{
+                  Map&lt;String, String&gt; model = <span class="hljs-keyword">new</span> HashMap&lt;&gt;();
+                  model.put(<span class="hljs-string">"name"</span>, <span class="hljs-string">"Alexey"</span>);
+          
+                  Visit visit = <span class="hljs-keyword">new</span> Visit();
+                  visit.description = String.format(<span class="hljs-string">"Visited at %s"</span>, LocalDateTime.now());
+                  visitsRepository.save(visit);
+          
+                  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ModelAndView(<span class="hljs-string">"index"</span>, model);
+              }</code></pre><br>
+          <h2 id="rest-kontroller">REST контроллер</h2><br>
+          <p>Следующий шаг — это вернуть все записи из базы в JSON формате, чтобы потом их можно было читать на клиенте.</p><br>
+          <p>Для REST в Spring есть отдельный тип контроллера который называется <code>@RestController</code>, код которого не сильно отличается от обычного контроллера.</p><br>
+          <pre><code class="hljs kotlin"><span class="hljs-meta">@RestController</span>
+          <span class="hljs-meta">@RequestMapping(<span class="hljs-meta-string">"/api"</span>)</span>
+          <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ApiController</span> </span>{
+          
+              <span class="hljs-keyword">final</span> VisitsRepository visitsRepository;
+          
+              <span class="hljs-keyword">public</span> ApiController(VisitsRepository visitsRepository) {
+                  <span class="hljs-keyword">this</span>.visitsRepository = visitsRepository;
+              }
+          
+              <span class="hljs-meta">@GetMapping(<span class="hljs-meta-string">"/visits"</span>)</span>
+              <span class="hljs-keyword">public</span> Iterable&lt;Visit&gt; getVisits() {
+                  <span class="hljs-keyword">return</span> visitsRepository.findAll();
+              }
+          }</code></pre><br>
+          <p>На что обратить внимание:</p><br>
+          <ul>
+          <li>В этот раз мы определяем "префикс" для всех методов контроллера использую базовый <code>@RequestMapping</code></li>
+          <li>Внедрение зависимостей работает точно так же, как и для обычных контроллеров (как и вообще для всего в Spring)</li>
+          <li>Метод теперь возвращает не имя шаблона, а модель. Spring автоматически преобразует это в массив JSON объектов</li>
+          <li>Мы используем persistence модель для сериализации в JSON, что в общем случае не самая лучшая практика</li>
+          </ul><br>
+          <p>Теперь при запросе <code>http://localhost:8080/api/visits</code> (предварительно скомпилировав проект и дав <em>DevTools</em> обновить приложение) мы получим JSON с нужными данными. </p><br>
+          <h2 id="klientskiy-kod">Клиентский код</h2><br>
+          <p>Оставим за рамками этой статьи, пример можно увидеть в исходном коде. Цель этого кода — исключительно продемонстрировать как получить JSON данные с сервера, интеграции с клиентскими фреймворками React, Angular etc намеренно оставлены вне рамок этой статьи. </p><br>
+          <h1 id="testirovanie">Тестирование</h1><br>
+          <p>Spring так же предоставляет мощные средства для <em>Integration</em> и <em>Unit</em> тестирования приложения. Пример кода, который проверяет контроллер:</p><br>
+          <pre><code class="java hljs"><span class="hljs-meta">@Test</span>
+              <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">indexControllerShouldReturnHtmlPage</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> Exception </span>{
+                  mockMvc.perform(get(<span class="hljs-string">"/"</span>))
+                          .andExpect(status().isOk())
+                          .andExpect(content().string(containsString(<span class="hljs-string">"Welcome to Spring"</span>)));
+              }</code></pre><br>
+          <p>Используя абстракции типа <code>MockMvc</code> можно легко тестировать внешний интерфейс приложения, в то же время имея доступ к его внутренностям. Например, можно целиком заменить компоненты приложения на моки (заглушки).</p><br>
+          <p>Аналогично для API тестов есть набор хелперов для проверки <em>JsonPath</em> выражений.</p><br>
+          <pre><code class="java hljs"><span class="hljs-meta">@Test</span>
+          <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">apiControllerShouldReturnVisits</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> Exception </span>{
+              mockMvc.perform(get(<span class="hljs-string">"/"</span>));
+          
+              mockMvc.perform(get(<span class="hljs-string">"/api/visits"</span>))
+                      .andExpect(jsonPath(<span class="hljs-string">"$.*.description"</span>, iterableWithSize(<span class="hljs-number">1</span>)));
+          }</code></pre><br>
+          <p>Тестирование в Spring это все таки отдельная тема, поэтому мы не будем сильно на этом останавливаться сейчас.</p><br>
+          <h1 id="deployment">Деплоймент</h1><br>
+          <p>Чтобы собрать и запустить наше приложение в продакшене есть несколько вариантов. </p><br>
+          <ol>
+          <li>Задеплоить полученный JAR (или даже WAR) в сервлет контейнер, например Tomcat. Это не самый простой путь, его нужно выбирать только если у вас уже есть работающий сервлет контейнер или сервер приложений.</li>
+          <li>Использовать магию <strong>Spring Boot</strong>. JAR файл, собранный используя плагин Spring Boot (который автоматически добавляется в проекты созданные через Spring Initializr), является полностью самодостаточным. </li>
+          </ol><br>
+          <p>Таким образом сборка и запуск приложения выглядит как:</p><br>
+          <ol>
+          <li><code>./mvnw package</code></li>
+          <li><code>java -jar ./target/demo-0.0.1-SNAPSHOT.jar</code></li>
+          </ol><br>
+          <p>Для деплоймента этого JAR файла не нужно ничего, кроме установленной Java (JRE). Это так называемый <em>fat JAR</em> — он включает в себя и встроенный сервлет контейнер (Tomcat по умолчанию) и фреймворк, и все библиотеки-зависимости. По сути, он является единственным артефактом деплоймтента — его можно просто копировать на целевой сервер и запускать там.</p><br>
+          <p>Более того, файл можно сделать <em>"выполняемым"</em> и запускать его просто из командной строки (Java, конечно, все равно необходима). </p><br>
+          <p>На базе этого файла можно легко создать Docker образ или установить его как демон. Больше деталей доступно в <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html">официальной документации</a>. </p><br>
+          <h1 id="zaklyuchenie">Заключение</h1><br>
+          <p>Получилось, все же, очень сжато — но уложить даже самый простой вводный курс по Spring в рамки одной статьи не очень просто. Надеюсь, это поможет кому-то сделать первый шаги в Spring-е, и хотя понять его фундаментальные концепции.</p><br>
+          <p>Как вы успели заметить, в тексте статьи много раз звучало слово "магия Spring". По сути своей, это очень "магический" фреймворк — даже взглянув на самую верхушку айсберга мы уже видели, что Spring много всего делает в фоне. Это является и плюсом, и минусом фреймворка. Плюс несомненно в том, что многие <em>сложные</em> вещи (очень многие) можно сделать одной аннотацией или зависимостью. Минус же это скрытая сложность — чтобы решить какие-то сложные проблемы, заставить фреймворк работать в крайних случаях или понимать все тонкости и аспекты нужно его неплохо знать. </p><br>
+          <p>Чтобы сделать этап "знать" как можно проще, Spring обладает отличной документацией, огромным сообществом, и чистыми исходниками, которые вполне можно читать. Если расположить Spring на шкале Рича Хики, он (Spring) несомненно попадет в easy, но уж точно не simple. Но для современного энтерпрайза (и не только энтерпрайза) он дает невероятные возможности чтобы получить production-ready приложение очень быстро и концентрироваться на логике приложения, а не инфраструктуры вокруг.</p><br>
+          <h1 id="ssylki">Ссылки</h1><br>
+          <ul>
+          <li>Исходный код на <a href="https://github.com/alek-sys/spring-demo">github</a></li>
+          <li>Главный сайт Spring с кучей разных гайдов <a href="https://spring.io/guides">spring.io</a></li>
+          <li>Официальная <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/">документация</a> Spring Framework</li>
+          </ul></div>
+                
               </div>
-              <p>Добро пожаловать в WordPress. Это ваша первая запись. Отредактируйте или удалите ее, затем пишите!</p>
-              <hr class="mt-4">
+          
+              
+          
+              <dl class="post__tags">
+                <dt class="post__tags-label">Теги:</dt>
+                <dd class="post__tags-list">    <ul class="inline-list inline-list_fav-tags js-post-tags">
+                  <li class="inline-list__item inline-list__item_tag"><a href="https://habr.com/ru/search/?q=%5Bspring%20framework%5D&amp;target_type=posts" rel="tag" class="inline-list__item-link post__tag  ">spring framework</a></li>
+                  <li class="inline-list__item inline-list__item_tag"><a href="https://habr.com/ru/search/?q=%5Bspring%20mvc%5D&amp;target_type=posts" rel="tag" class="inline-list__item-link post__tag  ">spring mvc</a></li>
+                  <li class="inline-list__item inline-list__item_tag"><a href="https://habr.com/ru/search/?q=%5Bjava%5D&amp;target_type=posts" rel="tag" class="inline-list__item-link post__tag  ">java</a></li>
+              </ul>
+              <button type="button" class="btn btn_outline_grey btn_mini hidden js-fav-edit-link" data-type="2" data-id="333756" onclick="show_edit_tags(this)">Добавить метки</button>
+          </dd>
+              </dl>
+                <dl class="post__tags">
+                  <dt class="post__tags-label">Хабы:</dt>
+                  <dd class="post__tags-list">
+                    <ul class="inline-list inline-list_fav-tags js-post-hubs">
+                        <li class="inline-list__item inline-list__item_tag">
+                          <a href="https://habr.com/ru/hub/java/" rel="tag" class="inline-list__item-link post__tag">
+                            Java
+                          </a>
+                        </li>
+                    </ul>
+                  </dd>
+                </dl>
+            </div>
+              <div class="overlay hidden" id="js-vote-reason">
+            <div class="popup popup_reasons">
+              <div class="popup__head popup__head_lang-settings">
+                <span class="popup__head-title">Укажите причину минуса, чтобы автор поработал над ошибками</span>
+                <button type="button" class="btn btn_small btn_popup-close js-hide_vote-reason">
+                  <svg class="icon-svg" width="12" height="12">
+                    <use xlink:href="https://habr.com/images/1590472978/common-svg-sprite.svg#close"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="popup__body">
+                 <span class="radio radio_custom reasons-vote__item js-vote-popup_list-item">
+                    <input type="radio" id="reasonList" name="reasonList" class="radio__input js-vote_radio" value="">
+                    <label for="reasonList" class="radio__label radio__label_another js-vote_title"></label>
+                  </span>
+                <div id="js-vote-popup_list"></div>
+                <button type="button" class="btn btn_blue btn_huge js-vote_send" disabled="">Отправить анонимно</button>
+              </div>
             </div>
           </div>
+          
+          </article>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-2 col-8 order-3 order-md-3 right-side">
+        <div class="col-12 col-sm-6 col-md-3 col-lg-2 order-3 order-md-3 right-side">
           <div class="block">
             <div class="block-head">Теги</div>
             <div class="block-content"></div>
